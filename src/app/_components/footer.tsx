@@ -9,7 +9,7 @@ export function Footer() {
                     {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg> */}
-                    <img src="/tmp/155885475.png" className="w-10 h-10 rounded-full" />
+                    <img src="/tmp/155885475.png" className="w-11 h-11 rounded-full" />
                     <span className="ml-3 text-xl">isa02</span>
                 </a>
                 <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
