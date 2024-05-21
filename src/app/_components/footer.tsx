@@ -13,7 +13,7 @@ export function Footer() {
                     <span className="ml-3 text-xl">isa02</span>
                 </a>
                 <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-                    Copyright © 2024 All rights reserved by isa02
+                    Copyright © 2024 isa02 All rights reserved.
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                     <a className="ml-3 text-gray-400">
