@@ -58,7 +58,7 @@ export default function RootLayout({
             </head>
             <body className={inter.className}>
                 <Header />
-                <div className="min-h-screen">{children}</div>
+                <div className="min-h-screen bg-gray-900">{children}</div>
                 <Footer />
             </body>
         </html>
