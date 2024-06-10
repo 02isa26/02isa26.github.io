@@ -24,10 +24,9 @@ export function PostPreview({
             </h2>
             <p className="leading-relaxed mb-8 font-body">{excerpt}</p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-800 border-opacity-75 mt-auto w-full">
-                <a className="text-indigo-400 inline-flex items-center font-title">Learn More
-                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
+                <a className="font-title text-lg text-indigo-400 inline-flex items-center hover:underline" href={`/articles/${slug}`}>記事を読む
+                    <svg className="w-4 h-4 ms-2 rtl:rotate-180 mb-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                     </svg>
                 </a>
                 <span className="text-gray-500 font-title mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-gray-800">
