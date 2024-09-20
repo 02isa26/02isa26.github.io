@@ -20,7 +20,7 @@ export default async function Article({ params }: Params) {
       <section className="overflow-hidden bg-gray-900 font-body text-gray-200">
         <div className="container mx-auto my-10 max-w-screen-lg rounded-xl bg-gray-800 px-5 py-20 sm:px-12">
           <article>
-            <ArticleHeader title={article.title} date={article.date} />
+            <ArticleHeader title={article.title} date={article.date} abstract={article.abstract} />
             <ArticleBody content={content} />
           </article>
         </div>
