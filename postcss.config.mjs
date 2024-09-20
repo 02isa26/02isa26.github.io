@@ -2,6 +2,8 @@
 const config = {
   plugins: {
     tailwindcss: {},
+    "postcss-nested": {},
+    "@csstools/postcss-minify": {},
   },
 };
 
