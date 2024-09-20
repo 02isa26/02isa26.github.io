@@ -5,5 +5,6 @@ export type Article = {
   category: string;
   tags: string[];
   excerpt: string;
+  abstract: string;
   content: string;
 };
