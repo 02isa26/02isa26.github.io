@@ -49,4 +49,12 @@
       content: counter(line-number, decimal-leading-zero);
     }
   }
+
+  a[data-footnote-ref] {
+    @apply mr-0.5 font-geistSans text-sm text-indigo-500 before:content-["("] after:content-[")"];
+  }
+
+  a[data-footnote-backref] {
+    @apply text-indigo-500;
+  }
 }
