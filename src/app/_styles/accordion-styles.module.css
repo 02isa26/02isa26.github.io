@@ -1,0 +1,11 @@
+summary.heading {
+  @apply flex cursor-pointer list-none items-center justify-between py-2 font-title text-3xl text-white;
+}
+
+svg.icon {
+  @apply block size-6 transition-all duration-300 group-open:rotate-180;
+}
+
+div.content {
+  @apply pb-2 font-body text-lg tracking-tighter text-gray-400;
+}

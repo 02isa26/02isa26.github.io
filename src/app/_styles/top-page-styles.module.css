@@ -1,0 +1,11 @@
+div.content {
+  @apply mb-6 text-lg leading-normal;
+}
+
+h2.heading {
+  @apply mb-3 font-title text-2xl text-white sm:text-3xl;
+}
+
+a.arrowLink {
+  @apply inline-flex items-center font-title text-lg text-indigo-400 hover:underline;
+}
