@@ -21,6 +21,12 @@ const GeistSans = localFont({
   variable: "--font-geist-sans",
   weight: "400",
 });
+const RoundedMplus = localFont({
+  src: "./_fonts/RoundedMplus1c-Regular.woff",
+  variable: "--font-sub",
+  display: "swap",
+  preload: false,
+});
 
 export const metadata: Metadata = {
   title: "isa02の個人サイト",
@@ -35,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${GeistSans.variable} ${ZenKakuGothicNew.variable} ${ZenMaruGothic.variable} antialiased`}
+        className={`${GeistSans.variable} ${ZenKakuGothicNew.variable} ${ZenMaruGothic.variable} ${RoundedMplus.variable} antialiased`}
       >
         <Header />
         {children}
