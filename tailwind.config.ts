@@ -15,6 +15,7 @@ const config: Config = {
       fontFamily: {
         body: ["var(--font-body)"],
         title: ["var(--font-title)"],
+        sub: ["var(--font-sub)"],
         geistSans: ["var(--font-geist-sans)"],
       },
     },
