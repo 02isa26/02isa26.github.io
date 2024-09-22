@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${GeistSans.variable} ${ZenKakuGothicNew.variable} ${ZenMaruGothic.variable} ${RoundedMplus.variable} antialiased`}
+        className={`${GeistSans.variable} ${ZenKakuGothicNew.variable} ${ZenMaruGothic.variable} ${RoundedMplus.variable} flex min-h-screen flex-col antialiased`}
       >
         <Header />
         {children}
