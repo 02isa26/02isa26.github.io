@@ -15,9 +15,9 @@ type Props = {
 export function ArticlePreview({ title, date, excerpt, slug, category, tags }: Props) {
   return (
     <div className="mx-4 flex flex-row flex-wrap py-8 md:mx-6 md:flex-nowrap lg:mx-0">
-      <div className="mb-4 flex shrink-0 flex-col md:mb-0 md:w-40 lg:w-72">
+      <div className="mb-0 flex flex-col md:mb-0 md:w-40 lg:w-72">
         <span className="font-title text-lg font-semibold text-white">{category}</span>
-        <span className="mt-0.5 font-geistSans text-base text-gray-400 md:mt-1">
+        <span className="mt-0.5 font-sub text-base text-gray-400 md:mt-1">
           <DateFormatter dateString={date} />
         </span>
         {tags.length > 0 && <DisplayTags tags={tags} />}

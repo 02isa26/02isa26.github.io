@@ -4,10 +4,10 @@ type Props = {
 
 export function DisplayTags({ tags }: Props) {
   return (
-    <div className="mr-4 mt-2 flex flex-row">
+    <div className="mr-4 mt-1 flex flex-row lg:mt-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="size-8 pb-2 font-bold text-white"
+        className="size-8 pb-2 text-white"
         viewBox="0 0 21 21"
       >
         <g fill="none" fillRule="evenodd" transform="translate(1 3)">
@@ -26,7 +26,7 @@ export function DisplayTags({ tags }: Props) {
           <rect width="2" height="2" x="14" y="2" fill="currentColor" rx="1" />
         </g>
       </svg>
-      <div className="flex flex-row flex-wrap font-geistSans text-gray-400">
+      <div className="flex flex-row flex-wrap font-sub text-gray-400">
         {tags.map((tag, index) => (
           <span key={tag} className={`${index >= 0 && "mx-1"}`}>
             {tag}
